@@ -1,0 +1,35 @@
+.echiquier {
+    border:black 10px solid;border-collapse: collapse;
+}
+
+/* Mise en forme des noms de ligne/colonne */
+.echiquier th{
+    padding:5px;
+}
+
+/* Style des cases de l'echiquier */
+.echiquier td{
+    /*Dimensionnement relatif au navigateur*/
+    width:8vmin;
+    height:8vmin;
+    min-height:30px;
+    min-width:30px;
+    font-size: 6vmin;
+
+    background:#C5C5C5;
+    color:black;
+    text-align: center;
+    border : solid 1px grey;
+}
+
+
+/* Gestion des cases blanches */
+.echiquier tr:nth-child(odd) td:nth-child(even), .echiquier tr:nth-child(even) td:nth-child(odd) {
+    background: green;
+}
+
+/* Gestion des images dans les cases de l'échiquier (option) */
+.echiquier td img{
+    max-width:90%;
+    max-height:90%;
+}

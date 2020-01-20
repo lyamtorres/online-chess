@@ -1,0 +1,16 @@
+{
+  "name": "projetEchecs",
+  "description": "",
+  "version": "1.0.0",
+  "main": "build/main.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Quentin Tonneau",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.17.1"
+  }
+}
