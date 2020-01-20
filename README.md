@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Jeu d'échecs en ligne
+# online-chess
 Ce projet consiste à déployer une application web de jeu d'échecs jouable en multijoueur.
 
 ## Installation et lancement
@@ -50,6 +49,3 @@ L'accronyme de la pièce est exprimé selon la liste suivante :
 
 ## API
 L'adresse [/status.js](http://localhost:8080/status.js) distribue toutes les informations de la partie en cours.
-=======
-# online-chess
->>>>>>> 4a46eb0293820f2cab521e58a2f06f14d2021dc9
