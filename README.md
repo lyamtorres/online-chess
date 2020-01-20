@@ -5,8 +5,8 @@ Ce projet consiste à déployer une application web de jeu d'échecs jouable en 
 * Récupération du projet, des dépendances et compilation :
 
     ```bash
-    git clone https://gitlab.univ-nantes.fr/Dimou/check-mate-project.git
-    cd onlineChess
+    git clone https://github.com/lyamtorres/online-chess.git
+    cd online-chess
     npm install
     tsc
     ```
@@ -32,16 +32,16 @@ L'accronyme de la pièce est exprimé selon la liste suivante :
 ## Organisation des sources
 * server : sources relatives au serveur
   * `main.ts` : algorithme principale de création et gestion du serveur
-  * `checkMove.ts` : fonctions qui vérifient la possibilité de mouvement de chaque pièce
-  * `deplacer.ts` : fonction qui déplace la piece choisi par l'utilisateur dans la prochaine case
-  * `echiquier.ts` : fonctions pour créer l'échiquier en position initiale et contenir la liste de pièces
+  * `checkMoves.ts` : fonctions qui vérifient la possibilité de mouvement de chaque pièce
+  * `move.ts` : fonction qui déplace la piece choisi par l'utilisateur dans la prochaine case
+  * `chessboard.ts` : fonctions pour créer l'échiquier en position initiale et contenir la liste de pièces
   * `parsing.ts` : Separe la chaine rentrée par l'utilisateur dans la page web en IMove
   * `interfacesVar.ts` : liste d'interfaces utilisées pour l'emsemble du projet
 * client: sources relatives aux navigateur(s)
   * `index.html` : page principale de l'application
   * `style.css` : design de l'application
   * `script.js` : algorithme(s) JavaScript côté client
-  * `ImgHP` : dossier contenant les images utilisés pour afficher les pieces
+  * `images` : dossier contenant les images utilisés pour afficher les pieces
 * build : résultats de la compilation TypeScript
 * node_modules : modules externes importés (express)
 * `.gitignore` : filtre des fichiers à exclure dans le dépôt git
