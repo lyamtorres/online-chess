@@ -1,4 +1,4 @@
-# online-chess
+# Online Chess
 Ce projet consiste à déployer une application web de jeu d'échecs jouable en multijoueur.
 
 ## Installation et lancement
