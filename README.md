@@ -1,7 +1,7 @@
 # Online Chess Game
 Ce projet consiste à déployer une application web de jeu d'échecs jouable en multijoueur.
 
-![](img/social-preview.jpeg)
+![](/social-preview.jpeg)
 
 ## Installation et lancement
 * Récupération du projet, des dépendances et compilation :
